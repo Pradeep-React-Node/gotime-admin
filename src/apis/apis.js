@@ -1,8 +1,8 @@
-const baseUrlWithSlash = process.env.REACT_APP_API_BASE_URL;
+const baseUrlWithSlash = "https://go-time.onrender.com";
 
 const apiUrls = {
   auth: {
-    //login: "api/auth/login",
+    login: "api/auth/login",
   },
   // userDocuments: {
   //   deleteUserDocument: (id) => `api/userDocument?_id=${id}`,

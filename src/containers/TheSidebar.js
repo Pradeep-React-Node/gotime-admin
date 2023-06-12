@@ -42,7 +42,8 @@ const TheSidebar = () => {
       </CSidebarBrand>
       <CSidebarNav>
         <CCreateElement
-          items={navigation.filter((item) => item?.showto?.includes(userType))}
+          // items={navigation.filter((item) => item?.showto?.includes(userType))}
+          items={navigation}
           components={{
             CSidebarNavDivider,
             CSidebarNavDropdown,

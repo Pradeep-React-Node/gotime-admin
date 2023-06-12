@@ -7,7 +7,7 @@ import "./index.css";
 import { getUserDetails } from "./views/auth/login/apis";
 import authRoutes from "./routes/authRoutes";
 import { CContainer, CFade } from "@coreui/react";
-
+import axios from "axios";
 const Loading = ({ loading }) => {
   return (
     <div className="pt-3 text-center">
